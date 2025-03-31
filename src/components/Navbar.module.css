@@ -1,0 +1,44 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+  }
+  
+  .navbar.open {
+    right: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 20px 0;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .closeButton:hover {
+    color: red;
+  }
+  
